@@ -1,5 +1,13 @@
-# Specifica progetto 
-Il gioco del tris si svolge su una tabella 3 × 3 in cui si alternano le mosse di due giocatori indicati rispettivamente con X e O.  
-Il gioco si conclude con la vittoria di X (risp. O) se sono stati messi tre simboli X (risp. O) sulla stessa riga, colonna o diagonale.  
-Scrivere un programma Haskell e un programma Prolog che acquisisce dalla tastiera una mossa alla volta mostrando sullo schermo il contenuto aggiornato della tabella e determina la vittoria di uno dei
-due giocatori o il pareggio stampando sullo schermo un apposito messaggio.
+Scrivere un programma ANSI C che acquisisce dalla tastiera una parola, costruisce ricorsivamente in una
+variabile stringa il palindromo corrispondente alla parola (p.e., il palindromo di “ciao” è “ciaooaic”) e lo
+stampa sullo schermo omettendone le vocali.
+
+Scrivere un programma ANSI C che acquisisce dalla tastiera due sequenze di lettere minuscole, le memorizza
+in due array di caratteri dopo averle messe in ordine alfabetico, le fonde ordinatamente in un’unica lista, e
+infine stampa sullo schermo il contenuto della lista (p.e., se le sequenze sono "uscite" e "zero", allora dovrà
+essere stampato "ceeiorstuz")
+
+Scrivere un programma ANSI C che acquisisce dalla tastiera due sequenze di lettere maiuscole, le memorizza
+in due liste di caratteri dopo averle messe in ordine alfabetico inverso, le fonde ordinatamente in un unico
+array di caratteri, e infine stampa sullo schermo il contenuto dell’array (p.e., se le sequenze sono "USCITE"
+e "ZERO", allora dovrà essere stampato "ZUTSROIEEC")
